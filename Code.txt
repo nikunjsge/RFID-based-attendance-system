@@ -24,12 +24,10 @@ const char* fingerprint  = "46 B2 C3 44 9C 59 09 8B 01 B6 F8 BD 4C FB 00 74 91 2
 
 
 //***********Things to change*******************
-const char* ssid = "shriji";
-const char* password = "shriji9892";
-//https://script.google.com/macros/s/AKfycbzIzgG5Rj397pgv900hZIVeqV5GQmRmn4ov3G4RU3hUZj1aZdafo-PAFHx42VhOm0XLEw/exec
-//https://script.google.com/macros/s/AKfycbw2CI_DeeBXhMUg2I6cgITtvwJ3Bg_nNRA91aNGAK_FygKF2g7fVualdo3I2O9f4XATTA/exec
+const char* ssid = "";
+const char* password = "";
 
-String GOOGLE_SCRIPT_ID = "AKfycbw2CI_DeeBXhMUg2I6cgITtvwJ3Bg_nNRA91aNGAK_FygKF2g7fVualdo3I2O9f4XATTA"; // Replace by your GAS service id
+String GOOGLE_SCRIPT_ID = ""; // Replace by your GAS service id
 const String unitName = "1"; // any name without spaces and special characters
 //***********Things to change*******************
 uint64_t openGateMillis = 0;
@@ -160,8 +158,6 @@ void loop() {
 
   mfrc522.PICC_HaltA();
 }
-
-//https://script.google.com/macros/s/AKfycbw8irWDaRezSKuHzu8qliCm3ENxiPq5j5CIjHRUokqOqQslvz4JcBWNbimj7qQfS8hH0g/exec
 
 String sendData(String params, char* domain) {
   //google scripts requires two get requests
