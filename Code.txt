@@ -1,5 +1,25 @@
 //Reference video link: https://www.youtube.com/watch?v=ON7neIqPC2A&t=63s
+/*
 
+*NodeMCU to RFID Connections
+3.3V - 3.3V
+D0 - RST
+GND - GND
+D6 - MISO
+D7 - MOSI
+D5 - SCK
+D4 - SDA
+
+
+*NodeMCU to OLED Display
+GND - GND
+3.3V - Vcc
+D1 - SCL
+D2 - SDA
+
+*Buzzer is connected with D8 pin of NodeMCU
+
+*/
 
 #include <SPI.h>
 #include <Wire.h>
