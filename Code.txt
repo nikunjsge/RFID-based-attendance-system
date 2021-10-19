@@ -10,7 +10,6 @@ D7 - MOSI
 D5 - SCK
 D4 - SDA
 
-
 *NodeMCU to OLED Display
 GND - GND
 3.3V - Vcc
